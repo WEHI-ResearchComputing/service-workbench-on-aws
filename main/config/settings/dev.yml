@@ -5,7 +5,7 @@ awsRegion: ap-southeast-2
 
 # AWS profile to use for deployment; if not specified here, defaults to using the same credentials
 # the AWS CLI is set up to use (either a profile in ~/.aws/config or an instance role if on EC2).
-# awsProfile: wehi-dev
+awsProfile: wehi-dev
 # The short solution name is used to namespace a few AWS resources. Try to keep this
 # setting short to avoid hitting long strings issues; the default should be fine in most cases,
 # but if multiple separate instances of the system are deployed within a single account,
@@ -33,7 +33,7 @@ envType: dev
 createServiceCatalogPortfolio: true
 # Root user's email address. Currently unused, and can be left unspecified for test environments,
 # though future features might use it for capabilities such as usage reports and system alerts.
-rootUserEmail: user@example.com
+# rootUserEmail: user@example.com
 
 # THIS SETTING IS ONLY APPLICABLE FOR LOCAL DEVELOPMENT
 # A flag indicating if lambda function role's trust policy (assume role policy) should be automatically adjusted to
