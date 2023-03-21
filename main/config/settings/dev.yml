@@ -40,9 +40,9 @@ rootUserEmail: user@example.com
 # allow assuming the role from local machine (applicable only for local development)
 #localRoleAutoAdjustTrust: true
 # Optional custom domain name; if empty, use the CloudFront domain name
-domainName: devwehiresearch.com
-certificateArn: arn:aws:acm:us-east-1:${self:custom.settings.awsAccountInfo.awsAccountId}:certificate/4c9fcedc-0092-4f78-8a4e-78703480d3b0
-hostedZoneId: Z040140520ESEQ88QEBAC
+domainName: dev.wehiresearch.com
+certificateArn: arn:aws:acm:us-east-1:${self:custom.settings.awsAccountInfo.awsAccountId}:certificate/ada86b5c-bfef-48ce-87fe-43db3b54b163
+hostedZoneId: Z09239502PJ50GPR2E1UK
 # To use a custom domain name, provide the following two values, the domain name
 # itself, and the ARN for the manually-created TLS certificate to use from ACM.
 # Note the current implementation assumes that DNS is handled elsewhere; a future
