@@ -41,7 +41,7 @@ rootUserEmail: user@example.com
 #localRoleAutoAdjustTrust: true
 # Optional custom domain name; if empty, use the CloudFront domain name
 domainName: dev.wehiresearch.com
-certificateArn: arn:aws:acm:us-east-1:${self:custom.settings.awsAccountInfo.awsAccountId}:certificate/4e2b450f-ae0a-4dab-a074-0d73a6e9074b
+certificateArn: arn:aws:acm:us-east-1:${self:custom.settings.awsAccountInfo.awsAccountId}:certificate/9174daeb-1ca3-4472-a1c8-eb461c740a9a
 hostedZoneId: Z09239502PJ50GPR2E1UK
 # To use a custom domain name, provide the following two values, the domain name
 # itself, and the ARN for the manually-created TLS certificate to use from ACM.
