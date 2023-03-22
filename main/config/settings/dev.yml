@@ -33,7 +33,7 @@ envType: dev
 createServiceCatalogPortfolio: true
 # Root user's email address. Currently unused, and can be left unspecified for test environments,
 # though future features might use it for capabilities such as usage reports and system alerts.
-rootUserEmail: user@example.com
+# rootUserEmail: user@example.com
 
 # THIS SETTING IS ONLY APPLICABLE FOR LOCAL DEVELOPMENT
 # A flag indicating if lambda function role's trust policy (assume role policy) should be automatically adjusted to
@@ -41,7 +41,7 @@ rootUserEmail: user@example.com
 #localRoleAutoAdjustTrust: true
 # Optional custom domain name; if empty, use the CloudFront domain name
 domainName: dev.wehiresearch.com
-certificateArn: arn:aws:acm:us-east-1:${self:custom.settings.awsAccountInfo.awsAccountId}:certificate/55c12c93-6c30-474c-baba-0297f1d4e9b4
+certificateArn: arn:aws:acm:us-east-1:${self:custom.settings.awsAccountInfo.awsAccountId}:certificate/9174daeb-1ca3-4472-a1c8-eb461c740a9a
 hostedZoneId: Z09239502PJ50GPR2E1UK
 # To use a custom domain name, provide the following two values, the domain name
 # itself, and the ARN for the manually-created TLS certificate to use from ACM.
