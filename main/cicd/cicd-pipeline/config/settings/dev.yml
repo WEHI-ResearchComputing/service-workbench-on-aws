@@ -1,10 +1,11 @@
 # AWS credentials profile for the target AWS Account where the solution needs to be deployed
-awsProfile: wehi-dev
+# need to enable this when deploying CI/CD
+# awsProfile: wehi-dev
 
 # Github parameters
 githubOwner: WEHI-ResearchComputing
 repoName: service-workbench-on-aws
-repoBranch: new_cert_test
+repoBranch: feature
 
 # Email address to receive CodePipeline failure notifications and notifications for manual approval
 emailForNotifications: stabassum@dius.com.au
