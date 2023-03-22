@@ -246,7 +246,6 @@ Resources:
             Resource:
               - 'arn:aws:route53:::hostedzone/Z09239502PJ50GPR2E1UK'
               - 'arn:aws:route53:::hostedzone/Z09165212K3SH794S09I'
-              - 'arn:aws:route53:::hostedzone/Z040140520ESEQ88QEBAC'
             Effect: Allow
           - Action:
               - iam:GetRole
