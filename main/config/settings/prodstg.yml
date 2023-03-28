@@ -5,7 +5,7 @@ awsRegion: ap-southeast-2
 
 # AWS profile to use for deployment; if not specified here, defaults to using the same credentials
 # the AWS CLI is set up to use (either a profile in ~/.aws/config or an instance role if on EC2).
-# awsProfile: wehi-prod
+awsProfile: wehi-prod
 # The short solution name is used to namespace a few AWS resources. Try to keep this
 # setting short to avoid hitting long strings issues; the default should be fine in most cases,
 # but if multiple separate instances of the system are deployed within a single account,
@@ -44,7 +44,7 @@ rootUserEmail: user@example.com
 # localRoleAutoAdjustTrust: true
 # Optional custom domain name; if empty, use the CloudFront domain name
 domainName: stg.main.prod.wehiresearch.com
-certificateArn: arn:aws:acm:us-east-1:{self:custom.settings.awsAccountInfo.awsAccountId}:certificate/2a68a191-5da8-4122-9a0a-e08e611fa1ae
+certificateArn: arn:aws:acm:us-east-1:904145425705:certificate/2a68a191-5da8-4122-9a0a-e08e611fa1ae
 hostedZoneId: Z09165212K3SH794S09I
 # To use a custom domain name, provide the following two values, the domain name
 # itself, and the ARN for the manually-created TLS certificate to use from ACM.
