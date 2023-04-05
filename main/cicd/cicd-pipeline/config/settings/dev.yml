@@ -8,7 +8,7 @@ repoName: service-workbench-on-aws
 repoBranch: feature
 
 # Email address to receive CodePipeline failure notifications and notifications for manual approval
-emailForNotifications: stabassum@dius.com.au
+emailForNotifications: kelabora.j@wehi.edu.au
 
 # Flag indicating whether to create a staging environment.
 # If this flag is set to true the pipeline will first deploy the solution to a staging environment before deploying the
