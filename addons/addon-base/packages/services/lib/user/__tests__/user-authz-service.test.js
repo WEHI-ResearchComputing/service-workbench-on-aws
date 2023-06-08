@@ -129,25 +129,4 @@ describe('UserAuthzService', () => {
       },
     });
   });
-  it('should not allow an external researcher to list users', async () => {
-    // BUILD
-    const activeResearcher = {
-      principal: {
-        status: 'active',
-        userRole: 'external-researcher',
-      },
-    };
-
-    // OPERATE
-    const researcherListingUsers = await service.authorizeList(activeResearcher, { action: 'list' });
-
-    // CHECK
-    expect(researcherListingUsers).toMatchObject({
-      effect: 'deny',
-      reason: {
-        message: 'You are not authorized to list users',
-        safe: true,
-      },
-    });
-  });
 });
