@@ -52,7 +52,7 @@ class UserAuthzService extends Service {
 
   // Protected methods
   async authorizeList(requestContext) {
-    if (['internal-guest', 'guest'].includes(requestContext.principal.userRole)) {
+    if (['internal-guest', 'guest', 'researcher'].includes(requestContext.principal.userRole)) {
       return deny('You are not authorized to list users', true);
     }
     return allow();
