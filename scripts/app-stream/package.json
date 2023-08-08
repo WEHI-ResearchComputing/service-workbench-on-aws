@@ -9,14 +9,15 @@
     "test": "jest --silent"
   },
   "dependencies": {
-    "@aws-sdk/client-appstream": "^3.18.0",
-    "@aws-sdk/client-ec2": "^3.18.0"
+    "@aws-sdk/client-appstream": "^3.369.0",
+    "@aws-sdk/client-ec2": "^3.369.0"
   },
   "devDependencies": {
     "aws-sdk-client-mock": "^0.5.2",
     "jest": "^27.0.4"
   },
   "resolutions": {
-    "minimatch": "^3.0.5"
+    "minimatch": "^3.0.5",
+    "fast-xml-parser": "^4.2.4"
   }
 }

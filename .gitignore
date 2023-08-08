@@ -4,7 +4,6 @@
 **/node_modules
 **/npm-debug.log
 **/pnpm-debug.log
-**/.docusaurus
 
 .pnpm-store/*
 
@@ -38,3 +37,6 @@ docs/build
 
 # rStudio specific
 source/ServiceWorkbenchOnAWS/main/solution/machine-images/config/infra/files/rstudio/*
+
+# temp packer log files
+main/solution/machine-images/*_build.log
